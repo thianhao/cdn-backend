@@ -1,6 +1,6 @@
-## Blog-Backend-REST-API-NestJS-Prisma 
+## CDN-Backend
 
-A simple backend REST API for a blog built using NestJS, Prisma, PostgreSQL and Swagger. 
+A simple backend REST API for Company Developer Network Freelancer Management System built using NestJS, Prisma, PostgreSQL and Swagger. 
 
 ### Installation
 
