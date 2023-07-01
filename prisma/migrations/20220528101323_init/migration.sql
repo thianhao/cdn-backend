@@ -1,15 +1,12 @@
--- CreateTable
-CREATE TABLE "Article" (
+CREATE TABLE "User" (
     "id" SERIAL NOT NULL,
-    "title" TEXT NOT NULL,
-    "description" TEXT,
-    "body" TEXT NOT NULL,
-    "published" BOOLEAN NOT NULL DEFAULT false,
-    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    "updatedAt" TIMESTAMP(3) NOT NULL,
-
-    CONSTRAINT "Article_pkey" PRIMARY KEY ("id")
+    "username" TEXT NOT NULL,
+    "email" TEXT NOT NULL,
+    "phone" TEXT NOT NULL,
+    "skillsets" TEXT[] NOT NULL,
+    "hobby" TEXT[] NOT NULL,
+   
+    CONSTRAINT "User_pkey" PRIMARY KEY ("id")
 );
 
--- CreateIndex
-CREATE UNIQUE INDEX "Article_title_key" ON "Article"("title");
+CREATE UNIQUE INDEX "User_username_key" ON "User"("username");
