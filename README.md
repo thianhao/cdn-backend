@@ -1,6 +1,6 @@
 ## CDN-Backend
 
-A simple backend REST API for Company Developer Network Freelancer Management System built using NestJS, Prisma, PostgreSQL and Swagger. 
+A simple backend REST API for Company Developer Network Freelancer Management System built using NestJS, Prisma, PostgreSQL and Swagger. Forked and built on top from https://github.com/prisma/blog-backend-rest-api-nestjs-prisma.
 
 ### Installation
 
